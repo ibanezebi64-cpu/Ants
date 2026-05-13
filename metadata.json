@@ -1,0 +1,8 @@
+{
+  "name": "Ant Colony Pro",
+  "description": "An autonomous 2D ant colony simulator featuring complex pheromone-based AI, multi-level digging mechanics, and environmental interaction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

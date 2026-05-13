@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", "Arial", sans-serif;
+  
+  --color-earth: #1a1512;
+  --color-soil-dark: #2b2118;
+  --color-soil-light: #3d2f24;
+  --color-accent-lime: #a3e635;
+  --color-ui-panel: #11110f;
+  --color-ui-border: #3d3d30;
+}
+
+@layer base {
+  body {
+    @apply bg-earth text-[#d4d4c8] antialiased;
+  }
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
